@@ -203,7 +203,7 @@ def unsubscribe_from_topic():
     'YOUR_REGISTRATION_TOKEN_n',
   ]
 
-  # Subscribe the devices corresponding to the registration tokens to the
+  # Unubscribe the devices corresponding to the registration tokens from the
   # topic.
   response = messaging.unsubscribe_from_topic(registration_tokens, topic)
   # See the TopicManagementResponse reference documentation
