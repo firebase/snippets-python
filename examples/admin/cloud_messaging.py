@@ -151,7 +151,7 @@ def webpush_message():
   return message
 
 def all_platforms_message():
-  # [START multi_platforms_messge]
+  # [START multi_platforms_message]
   message = messaging.Message(
     notification=messaging.Notification(
       title='$GOOG up 1.43% on the day',
@@ -195,7 +195,7 @@ def subscribe_to_topic():
 
 def unsubscribe_from_topic():
   topic = 'highScores'
-  # [START subscribe]
+  # [START unsubscribe]
   # These registration tokens come from the client FCM SDKs.
   registration_tokens = [
     'YOUR_REGISTRATION_TOKEN_1',
@@ -209,4 +209,4 @@ def unsubscribe_from_topic():
   # See the TopicManagementResponse reference documentation
   # for the contents of response.
   print(response.success_count, 'tokens were unsubscribed successfully')
-  # [END subscribe]
+  # [END unsubscribe]
