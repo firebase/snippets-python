@@ -1,2 +1,2 @@
 urllib3[secure] >= 1.21.1
-firebase-admin >= 2.0.0
+firebase-admin >= 2.8.0
